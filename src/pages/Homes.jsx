@@ -1,0 +1,52 @@
+import Header from "../components/layouts/Header";
+import Footer from "../components/layouts/Footer";
+import TagImg from "../assets/images/tag-com.webp";
+import FormAsk from "../components/home/FormAskLocation";
+import TagFood from "../components/home/Tags";
+
+import Brand from "../components/home/Brand";
+function Homes() {
+  return (
+    <div>
+      <Header />
+      <div className="absolute top-0 z-0 w-full">
+        <img className="h-96 w-full object-cover" src={TagImg}></img>
+      </div>
+
+      <div className="flex justify-center">
+        <div style={{ width: 1200 }}>
+          <div>
+            <FormAsk />
+            <div
+              className="z-10 mb-20 mt-96"
+              style={{ border: "1px solid #e5e9f0" }}
+            ></div>
+            <div className="mt-32 flex justify-center">
+              <div className="w-full">
+                <h1 className="text:xl p-4 font-bold md:text-4xl ">
+                  GrabFood Promo in{" "}
+                  <span className="text-emerald-600">
+                    Trường Tiểu Học Võ Văn Tần, KP. 5, P.Trung M
+                  </span>
+                  ...
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <Brand />
+
+      <div className="flex justify-center">
+        <div className="grid lg:grid-cols-4 gap-5 mt-7 md:grid-cols-3 sm:grid-cols-3 grid-cols-2 p-4 pt-0">
+          <TagFood />
+        </div>
+      </div>
+
+      <Footer />
+    </div>
+  );
+}
+
+export default Homes;

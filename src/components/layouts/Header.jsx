@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 // import logoGrabWhite from "../../assets/logo-grabfood-white2.svg";
 // import logoGrabGreen from "../../assets/logo-grabfood-green.svg";
 

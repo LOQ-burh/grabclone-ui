@@ -5,7 +5,7 @@ function Header() {
     <header className="fixed z-10 h-20 w-full flex justify-center items-center">
       <div className="border-gray-200 px-4 py-2.5 lg:px-6 dark:bg-gray-800" style={{ width: '1200px' }}>
         <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between">
-          <a href="https://flowbite.com" className="flex items-center">
+          <a href="/" className="flex items-center">
             <img
               src={logoGrabWhite}
               className="mr-3 h-6 sm:h-9"

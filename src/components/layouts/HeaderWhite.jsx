@@ -10,7 +10,7 @@ function HeaderWhite() {
       >
         <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between">
           <div className="flex items-center">
-            <a href="https://flowbite.com" className="mr-20">
+            <a href="/" className="mr-20">
               <img
                 src={logoGrabGreen}
                 className="mr-3 h-6 sm:h-9"

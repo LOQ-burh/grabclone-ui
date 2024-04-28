@@ -39,7 +39,7 @@ function Homes() {
       <Brand />
 
       <div className="flex justify-center">
-        <div className="grid lg:grid-cols-4 gap-5 mt-7 md:grid-cols-3 sm:grid-cols-3 grid-cols-2 p-4 pt-0">
+        <div className="mt-20 w-[1200px]">
           <TagFood />
         </div>
       </div>

@@ -1,7 +1,7 @@
-import BrandImg from '../../assets/images/local-chosen.png';
+
 export const BrandLocal = [
     {
-        image: {BrandImg},
+        image: 'https://food-cms.grab.com/compressed_webp/merchants/5-C6CGVFKJNA2TAT/hero/e87487e1-c9bb-4828-8d5a-b8b0e31c7c29__store_cover__2024__01__08__12__32__43.webp',
         name:'Bún đậu mắm tôm Làng Vọng',
         category:'Bún - Phở - Cháo',
         rate:'4.4',
@@ -106,7 +106,7 @@ export const BrandLocal = [
         ]
     },
     {
-        image: {BrandImg},
+        image: 'https://food-cms.grab.com/compressed_webp/merchants/5-C6CGVFKJNA2TAT/hero/e87487e1-c9bb-4828-8d5a-b8b0e31c7c29__store_cover__2024__01__08__12__32__43.webp',
         name:'Bún đậu mắm tôm Làng Vọng',
         category:'Bún - Phở - Cháo',
         rate:'4.4',
@@ -115,7 +115,7 @@ export const BrandLocal = [
         promostion:'Ưu đãi lên đến 130k',
     },
     {
-        image: {BrandImg},
+        image: 'https://food-cms.grab.com/compressed_webp/merchants/5-C6CGVFKJNA2TAT/hero/e87487e1-c9bb-4828-8d5a-b8b0e31c7c29__store_cover__2024__01__08__12__32__43.webp',
         name:'Bún đậu mắm tôm Làng Vọng',
         category:'Bún - Phở - Cháo',
         rate:'4.4',
@@ -124,7 +124,7 @@ export const BrandLocal = [
         promostion:'Ưu đãi lên đến 130k',
     },
     {
-        image: {BrandImg},
+        image: 'https://food-cms.grab.com/compressed_webp/merchants/5-C6CGVFKJNA2TAT/hero/e87487e1-c9bb-4828-8d5a-b8b0e31c7c29__store_cover__2024__01__08__12__32__43.webp',
         name:'Bún đậu mắm tôm Làng Vọng',
         category:'Bún - Phở - Cháo',
         rate:'4.4',

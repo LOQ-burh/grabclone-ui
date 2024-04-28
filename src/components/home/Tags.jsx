@@ -2,9 +2,9 @@ import { TagBrand } from "../../utils/data/TagBrand";
 
 function Tags() {
   return (
-    <a href="/">
+    <a className="grid grid-cols-4 gap-4 mb-10" href="/">
       {TagBrand.map((t) => (
-        <div key={t.nameTag} className="w-1/4">
+        <div key={t.nameTag} className="w-full">
           <img
             loading="lazy"
             className="max-h-[140px] max-w-[100%] rounded-lg md:max-h-[175px] md:max-w-[100%]"

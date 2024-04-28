@@ -45,10 +45,10 @@ function Brand() {
   return (
     <div className="flex justify-center flex-wrap">
       <div className="max-w-[1200px] w-full">
-        <a href="/restaurant">
+        <a className="" href="/restaurant">
           <Slider className="" {...configSlider}>
             {BrandLocal.map((d) => (
-              <div key={d.name} className="relative horizontal-scroll-item" style={{ width: '272px !important' }}>
+              <div key={d.name} className="relative mx-2 " style={{ width: '272px !important' }}>
                 <div className="absolute px-2 bg-green-500 p-[3px] text-xs text-white font-semibold rounded-sm mt-4">
                     Promo
                 </div>

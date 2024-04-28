@@ -2,14 +2,14 @@ import { useState } from 'react';
 import { BrandLocal } from '../../utils/data/BrandLocal';
 import ItemProducts from '../restaurants/ItemProducts';
 function Products() {
-        //state close menu
-        const [closeTab, setCloseTab] = useState(true);
-        const handleMenuSelect = () => {
-            setCloseTab(true);
-        };
-        const handleMenuSelected = () => {
-            setCloseTab(false);
-        };
+    //state close menu
+  const [closeTab, setCloseTab] = useState(true);
+  const handleMenuSelect = () => {
+      setCloseTab(true);
+  };
+  const handleMenuSelected = () => {
+      setCloseTab(false);
+  };
     return ( 
         <div id='' style={{ width: 1200 }}>
             {BrandLocal[0].menu.map((itemMenu, indexMenu) =>(

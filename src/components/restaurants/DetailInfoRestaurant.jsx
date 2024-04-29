@@ -4,7 +4,7 @@ import BrandDetail from './BrandDetail';
 import NavContent from './NavContent';
 function DetailInfoRestaurant() {
     return ( 
-        <div className="mt-24" style={{ width: 1200 }}>
+        <div className="mt-24 max-w-full md:w-[1200px]">
             <BreadCrumb />
             <BrandDetail {...BrandLocal[0]}/>
             <NavContent />

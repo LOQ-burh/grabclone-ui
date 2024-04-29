@@ -5,7 +5,7 @@ import tagPromos from "../../assets/icon-promo-tag.svg"
 
 function Brand() {
     return ( 
-        <a className="grid grid-cols-4 gap-4 mb-10" href="/restaurant">
+        <a className="grid grid-cols-2 md:grid-cols-4 sm:grid-cols-2 gap-4 md:gap-2 sm:gap-1 mb-10 md:mx-0 mx-5" href="/restaurant">
             {BrandLocal.map((d) => (
               <div key={d.name} className="relative flex flex-col mb-10" style={{ width: '272px !important' }}>
                 <div className="absolute px-2 bg-green-500 p-[3px] text-xs text-white font-semibold rounded-sm mt-4">

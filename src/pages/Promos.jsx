@@ -13,7 +13,7 @@ function Promos() {
                 <div className='w-full h-1.5 bg-slate-100 mt-4'></div>
                 <div className='mt-20' style={{ width: 1200 }}>
                     <BreadCrumbPromos />
-                    <h1 className="p-4 text-4xl font-bold max-sm:text-sm">Ưu đãi ở <span className="text-green-500">Trường Tiểu Học Võ Văn Tần, KP. 5, P.Trung Mỹ Tây, Q.12, </span>...</h1>
+                    <h1 className="p-4 text-4xl font-bold max-sm:text-2xl">Ưu đãi ở <span className="text-green-500">Trường Tiểu Học Võ Văn Tần, KP. 5, P.Trung Mỹ Tây, Q.12, </span>...</h1>
                 </div>
                 <div className='mt-20' style={{ width: 1200 }}>
                     <BrandProducts />

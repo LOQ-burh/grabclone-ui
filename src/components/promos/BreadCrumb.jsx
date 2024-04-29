@@ -2,7 +2,7 @@ import ArrowRight from '../../assets/chevron-right-solid.svg';
 
 function BreadCrumb() {
   return (
-    <div className="flex text-[18px] items-center">
+    <div className="flex text-[18px] items-center md:ml-0 ml-3">
         <span className="cursor-pointer">
           <a className="text-cyan-500" href="/">Trang chủ</a>
         </span>

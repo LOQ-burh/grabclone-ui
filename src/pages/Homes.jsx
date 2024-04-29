@@ -39,7 +39,7 @@ function Homes() {
       <Brand />
 
       <div className="flex justify-center">
-        <div className="mt-20 w-[1200px]">
+        <div className="mt-20 w-[1200px] md:mx-2 mx-8">
           <TagFood />
         </div>
       </div>

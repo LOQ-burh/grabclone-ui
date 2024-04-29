@@ -2,7 +2,7 @@ import { TagBrand } from "../../utils/data/TagBrand";
 
 function Tags() {
   return (
-    <a className="grid grid-cols-4 gap-4 mb-10" href="/">
+    <a className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 gap-4 mb-10" href="/">
       {TagBrand.map((t) => (
         <div key={t.nameTag} className="w-full">
           <img

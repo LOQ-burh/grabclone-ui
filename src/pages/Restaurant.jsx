@@ -37,7 +37,7 @@ function Restaurant() {
                 >
                   {itemMenu.itemProduct.map((itemProduct) => (
                     <div
-                    onClick ={() => setOpenRight(!openRight) }
+                      onClick ={ () => setOpenRight(!openRight) }
                       key={itemMenu.itemProduct.idProduct}
                     >
                       <ItemProducts {...itemProduct}></ItemProducts>

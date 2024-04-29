@@ -1,6 +1,8 @@
 function DetailProducts() {
   return (
-    
+    <div>
+      
+    </div>
   );
 }
 

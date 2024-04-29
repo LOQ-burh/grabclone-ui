@@ -2,7 +2,7 @@
 import starIcon from "../../assets/star-solid.svg";
 import clockIcon from "../../assets/clock-regular.svg";
 import tagPromos from "../../assets/icon-promo-tag.svg";
-import OptionDelivery from "./OptionDelivery";
+import OptionDelivery from "../../../../../../../../Users/Admin/Downloads/grabclone-ui/src/components/restaurants/OptionDelivery";
 function Brand(props) {
   return (
     <div className="flex flex-wrap justify-center mb-10">
